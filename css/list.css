@@ -1,0 +1,128 @@
+/* 列表页专有的css */
+.nav {
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    padding: 3px 12px;
+    border-left: 2px solid #c81523;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+.sk_con ul li:last-child a::after {
+    font-family: 'icomoon';
+    content: "\e9d1e";
+}
+
+.sk_bd ul li {
+    margin-right: 13px;
+    float: left;
+    overflow: hidden;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 1px;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #c81523;
+}
+
+.sk_bd ul li .info {
+    padding: 15px 10px 0;
+}
+
+.sk_bd ul li p {
+    letter-spacing: .5px;
+    padding-bottom: 10px;
+}
+
+.price {
+    height: 27px;
+    overflow: hidden;
+}
+
+.price h3 {
+    color: #fc3b27;
+    float: left;
+    font-size: 18px;
+    margin-right: 10px;
+
+}
+
+.price p {
+    line-height: 30px;
+    text-decoration: line-through;
+}
+
+.sales_volume {
+    line-height: 28px;
+}
+
+.sales_volume .bar {
+    overflow: hidden;
+    border: 1px solid #fc3b27;
+    border-radius: 5px;
+    width: 130px;
+    height: 12px;
+    background-color: #fc3b27;
+    display: inline-block;
+}
+
+.sales_volume .bar div {
+    float: right;
+    background-color: #fff;
+    height: 12px;
+    width: 15px;
+}
+
+.sales_volume p {
+    color: #fc3b27;
+    display: inline-block;
+}
+
+.sk_bd button {
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #c81523;
+    height: 53px;
+    width: 100%;
+}
